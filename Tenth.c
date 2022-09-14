@@ -1,9 +1,9 @@
 # include<stdio.h>
 int main() {
 
-    int x, y;
-    
-    printf("Value of x");
+    int num1, num2;
+    //To do : Change variable names to meaningful names
+    printf("Enter value of firs");
     scanf("%d", &x);
 
     printf("Value of y");

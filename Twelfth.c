@@ -1,5 +1,6 @@
 # include<stdio.h>
 int main() {
+    //To do : Change variable names to meaningful names
      
     int a, b;
     printf("The value of a");

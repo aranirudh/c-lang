@@ -1,6 +1,6 @@
 # include<stdio.h>
 int main() {
-    
+    //Change the variable names
     int x, y;
     
     printf("The value of x is");
