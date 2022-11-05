@@ -12,15 +12,15 @@ int main() {
     printf("Enter the marks ");
     scanf("%d", &marks);
 
-   if (marks < 30 && marks >= 0)  {
-      printf("C");
-   }
-   
-   else if (marks >= 30 && marks < 70) {
-        printf("B");
-   }
+    if (marks < 30) {
+        printf("C");
+    }
 
-    else if (marks >= 70 && marks <90) {
+    else if (marks >= 30 && marks <70) {
+        printf("B");
+    }
+
+    else if (marks >= 70 && marks < 90) {
         printf("A");
     }
 
@@ -29,7 +29,7 @@ int main() {
     }
 
     else {
-        printf("Invalid Marks");
+        printf("Not valid marks");
     }
 
     return 0;

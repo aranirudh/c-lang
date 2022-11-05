@@ -1,8 +1,9 @@
 # include<stdio.h>
+
 int main() {
-    int x = 2;
+    int x;
     
-    if (x=1)
+    if (x = 1)
     {
         printf("x is equal to 1");
     }

@@ -1,13 +1,18 @@
 # include<stdio.h>
 
-//Practising for loop.
+//Practising while loop.
 
 int main() {
-    for (int i = 1 ; i <= 100 ; i = i + 1)
-    {
+
+    int i = 0;
+
+    while(i <= 10) {
+
         printf("%d \n", i);
+        i ++;
     }
 
     return 0;
+
+
 }
-    

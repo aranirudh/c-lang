@@ -4,25 +4,21 @@
 
 int main() {
 
-    char ch;
-    printf("Enter a letter ");
-    scanf("%c", &ch);
+   char ch;
+   printf("Enter the character ");
+   scanf("%c", &ch);
 
-    if (ch >= 'a' && ch <= 'z') 
-    {
-        printf("Lower Case");
-    }
-    
-    else if (ch >= 'A' && ch <= 'Z')
-    {
-        printf("Upper Case");
-    }
-    
-    else
-    {
-        printf("Not applicable");
-    }
+   if (ch >= 'a' && ch <= 'z') {
+    printf("This is a lower case letter \n");
+   }
 
-    return 0;
+   else if (ch >= 'A' && ch <= 'Z') {
+    printf("This an upper case letter \n");
+   }
+
+   else{
+    printf("This not a letter \n");
+   }
+
+   return 0;
 }
-    
